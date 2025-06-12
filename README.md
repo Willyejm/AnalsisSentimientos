@@ -28,17 +28,18 @@ Este proyecto realiza el análisis de sentimientos y emociones en documentos `.d
 - `openpyxl` + `xlsxwriter`
 - `matplotlib` / `seaborn`
 
-Modelo usado: [`j-hartmann/emotion-english-distilroberta-base`](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base)
+Modelo usado: [`j-hartmann/emotion-english-distilroberta-base`]
 
 ---
 
 ## Estructura del proyecto
-- analizar_emociones/analizar_emociones.py # Script principal de análisis
-    requirements.txt # Dependencias
-    README.md # Este archivo
-    - documentos/ # Archivos .docx a analizar
-    - resultados/
-        Limpieza_emociones.docx
-        Limpieza_emociones.xlsx
-    - informe/
-        Informe_Analisis_Emociones.docx
+- analizar_emociones/
+   - analizar_emociones.py # Script principal de análisis
+   - requirements.txt # Dependencias
+   - README.md # Este archivo
+     - documentos/ # Archivos .docx a analizar
+     - resultados/
+         - Limpieza_emociones.docx
+         - Limpieza_emociones.xlsx
+     - informe/
+         - Informe_Analisis_Emociones.docx
