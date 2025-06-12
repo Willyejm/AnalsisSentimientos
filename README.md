@@ -37,10 +37,9 @@ Modelo usado: [`j-hartmann/emotion-english-distilroberta-base`](https://huggingf
     analizar_emociones.py # Script principal de análisis
     requirements.txt # Dependencias
     README.md # Este archivo
-📂 documentos/ # Archivos .docx a analizar
-📂 resultados/
-    Limpieza_emociones.docx
-    Limpieza_emociones.xlsx
-📂 informe/
-    Informe_Analisis_Emociones.docx
-
+    📂 documentos/ # Archivos .docx a analizar
+    📂 resultados/
+        Limpieza_emociones.docx
+        Limpieza_emociones.xlsx
+    📂 informe/
+        Informe_Analisis_Emociones.docx
