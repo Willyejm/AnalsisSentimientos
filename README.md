@@ -33,13 +33,12 @@ Modelo usado: [`j-hartmann/emotion-english-distilroberta-base`](https://huggingf
 ---
 
 ## Estructura del proyecto
-📁 analizar_emociones/
-    analizar_emociones.py # Script principal de análisis
+- analizar_emociones/analizar_emociones.py # Script principal de análisis
     requirements.txt # Dependencias
     README.md # Este archivo
-    📂 documentos/ # Archivos .docx a analizar
-    📂 resultados/
+    - documentos/ # Archivos .docx a analizar
+    - resultados/
         Limpieza_emociones.docx
         Limpieza_emociones.xlsx
-    📂 informe/
+    - informe/
         Informe_Analisis_Emociones.docx
